@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            align-items: center;
+        }
+        .login{
+            padding: 10px;
+            margin: 15px;
+            border: 2px solid darkblue;
+            border-radius: 5px;
+        }
+        fieldset{
+            color: darkblue;
+            text-align: center;
+            margin: 100px; 
+            height: 400px;
+        }
+        .btn{
+            width: 110px;
+            height: 45px;
+            border: 2px solid lightblue ;
+           background-color: darkblue ; 
+           color: white;
+           border-radius: 10px;
+           margin: 15px;
+           cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <form>
+        <h1>Login Page</h1>
+        <p>Enter your details to login</p>
+        <input class="login" type="text" placeholder="Username"><br>
+        <input class="login" type="password" placeholder="Password"><br>
+        <a href="forgotpassword.html">Forgot password?</a><br>
+        <input class="btn" type="submit" value="Login">
+        <p class="signup">Don't have an account? <a href="signup.html">Signup</a></p>
+    </form>
+    </fieldset>
+</body>
+</html>
